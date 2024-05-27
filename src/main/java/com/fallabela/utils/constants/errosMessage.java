@@ -1,4 +1,4 @@
-package com.davidcast27.utils.constants;
+package com.fallabela.utils.constants;
 
 public enum errosMessage {
 	IMPOSIBLE_INSTANCIAR("No es posible instanciar esta clase");

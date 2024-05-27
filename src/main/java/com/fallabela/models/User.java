@@ -1,4 +1,4 @@
-package com.davidcast27.models;
+package com.fallabela.models;
 
 public class User {
     private String id;

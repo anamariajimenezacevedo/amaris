@@ -1,4 +1,4 @@
-package com.davidcast27.runners;
+package com.fallabela.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/get_all_users.feature"},
-        glue = {"com.davidcast27.stepdefinitions"},
+        features = {"src/test/resources/features/consultar_usuarios.feature"},
+        glue = {"com.fallabela.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
-public class ListAllUsers {
+public class ConsultarUsuariosTest {
 
 }

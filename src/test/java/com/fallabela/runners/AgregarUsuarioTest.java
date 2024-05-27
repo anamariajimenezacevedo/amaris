@@ -1,4 +1,4 @@
-package com.davidcast27.runners;
+package com.fallabela.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -8,9 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = {"src/test/resources/features/agregar_usuario.feature"},
-        glue = {"com.davidcast27.stepdefinitions"},
+        glue = {"com.fallabela.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
 public class AgregarUsuarioTest {
-
 }

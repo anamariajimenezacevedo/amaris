@@ -1,12 +1,12 @@
-package com.davidcast27.questions;
+package com.fallabela.questions;
 
-import com.davidcast27.models.User;
+import com.fallabela.models.User;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Question;
 
 import java.util.List;
 
-import static com.davidcast27.utils.constants.errosMessage.IMPOSIBLE_INSTANCIAR;
+import static com.fallabela.utils.constants.errosMessage.IMPOSIBLE_INSTANCIAR;
 
 public class UserQuestions {
 
@@ -25,8 +25,4 @@ public class UserQuestions {
                 .jsonPath()
                 .getString("id");
     }
-    public static Question<String> imprimir() {
-        return actor -> SerenityRest.lastResponse().prettyPrint();
-    }
-
 }

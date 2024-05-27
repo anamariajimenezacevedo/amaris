@@ -1,12 +1,12 @@
-package com.davidcast27.exceptions;
+package com.fallabela.exceptions;
 
 public class UserAssertionErros extends AssertionError {
 
-    public static final String NUMBER_USERS_RETURNED_DIFERENTS = "number of users expected is different from those returned";
-    public static final String USER_DETAIL_NOT_CORRECT = "user details  information is not correct";
-    public static final String STATUS_CODE_NOT_CORRECT = "Status code  is not correct";
-    public static final String USER_NOT_SAVED = "User not saved correctly";
-
+    public static final String LISTA_INCOMPLETA = "El numero total de los usuarios no es el correcto";
+    public static final String USUARIO_NO_ENCONTRADO = "Los datos del usuario no son correctos";
+    public static final String ESTADO_NO_CORRECTO = "El estado no es correcto";
+    public static final String USUARIO_NO_REGISTRADO = "El usuario no se registro correctmante";
+    public static final String USUARIO_NO_ELIMINADO = "El usuario no fue eliminado";
 
 
     public UserAssertionErros(String message) {

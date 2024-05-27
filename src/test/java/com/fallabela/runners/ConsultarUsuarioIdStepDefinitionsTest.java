@@ -11,6 +11,6 @@ import org.junit.runner.RunWith;
         glue = {"com.fallabela.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
-public class ConsultarUsuarioIdTest {
+public class ConsultarUsuarioIdStepDefinitionsTest {
 
 }

@@ -1,0 +1,14 @@
+com/davidcast27/models/User.java
+ com.davidcast27.models.User
+com/davidcast27/exceptions/UserAssertionErros.java
+ com.davidcast27.exceptions.UserAssertionErros
+com/davidcast27/userinterfaces/package-info.java
+ com.davidcast27.userinterfaces.package-info
+com/davidcast27/utils/constants/errosMessage.java
+ com.davidcast27.utils.constants.errosMessage
+com/davidcast27/interactions/package-info.java
+ com.davidcast27.interactions.package-info
+com/davidcast27/task/UserTasks.java
+ com.davidcast27.task.UserTasks
+com/davidcast27/questions/UserQuestions.java
+ com.davidcast27.questions.UserQuestions

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="list all users information" skipped="0" tests="1" time="6.49" timestamp="2024-05-25 01:45:51"><testcase name="list all users"><failure message="number of users expected is different from those returned - &#10;Expected: a collection with size &lt;13&gt;&#10;     but: collection size was &lt;20&gt;" type="java.lang.AssertionError">number of users expected is different from those returned - 
+Expected: a collection with size &lt;13&gt;
+     but: collection size was &lt;20&gt;</failure><system-err>number of users expected is different from those returned
+    -
+    Expected: a collection with size &lt;13&gt;
+    but: collection size was &lt;20&gt;&#13;
+    com.fallabela.stepdefinitions.WhenManagingUsers.allTheExpectedUsersShouldBeReturned(WhenManagingUsers.java:45)&#13;
+    ✽.all 13 the expected users should be returned(src/test/resources/features/get_all_users.feature:7)&#13;
+</system-err></testcase></testsuite>
