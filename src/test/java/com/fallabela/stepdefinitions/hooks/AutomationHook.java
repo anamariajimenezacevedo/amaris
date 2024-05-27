@@ -13,7 +13,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 public class AutomationHook {
 
     private static final String DEFAULT_ENVIROMENT = "restapi.baseurl";
-    private static final String DEFAULT_PATH = "https://reqres.in/api";
+    private static final String DEFAULT_PATH = "https://dummyapi.io/data/v1";
 
     private String theRestApiBaseUrl;
     private EnvironmentVariables environmentVariables;

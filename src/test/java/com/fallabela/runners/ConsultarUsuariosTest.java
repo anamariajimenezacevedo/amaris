@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/find_a_user.feature"},
+        features = {"src/test/resources/features/get_all_users.feature"},
         glue = {"com.davidcast27.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
-public class FindAUser {
+public class ListAllUsers {
 
 }

@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/list_all_users.feature"},
+        features = {"src/test/resources/features/agregar_usuario.feature"},
         glue = {"com.davidcast27.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
 )
-public class ListAllUsers {
+public class AgregarUsuarioTest {
 
 }

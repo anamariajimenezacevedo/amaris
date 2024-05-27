@@ -25,4 +25,8 @@ public class UserQuestions {
                 .jsonPath()
                 .getString("id");
     }
+    public static Question<String> imprimir() {
+        return actor -> SerenityRest.lastResponse().prettyPrint();
+    }
+
 }

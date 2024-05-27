@@ -1,6 +1,7 @@
 package com.davidcast27.task;
 
 import com.davidcast27.models.User;
+import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.rest.interactions.Get;
@@ -24,19 +25,21 @@ public class UserTasks {
 
     public static Performable listAllUsers() {
         return Task.where("{0} fetches all users",
-                Get.resource("/users")
+                Get.resource("/user").with(request -> request.header("app-id","66512f46d2c0f8b7a8ed8b1d")
+                )
         );
     }
 
-    public static Performable addUser(String firstName, String lastName) {
-        User newUser = new User(firstName, lastName);
+    public static Performable addUser(String firstName, String lastName, String email) {
+        User newUser = new User(firstName, lastName, email);
         return Task.where("{0} fetches the user with id #id",
-                Post.to("/users")
-                        .with(request -> request.header("Content-Type", "application/json")
+                Post.to("/user/create")
+                        .with(request -> request.header("app-id","66512f46d2c0f8b7a8ed8b1d").header("Content-Type", "application/json")
                                 .body(newUser)
                         )
-        );
-    }
 
+        );
+
+    }
 
 }
